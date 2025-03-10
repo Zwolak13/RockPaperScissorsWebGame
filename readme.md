@@ -2,6 +2,8 @@
 
 ## 🚀 **How It Works**
 
+# **Go to -->** https://zwolak13.github.io/RockPaperScissorsWebGame/
+
 1. **Choose Your Weapon**: You, the player, can choose between **Rock**, **Paper**, or **Scissors**. Each choice has its strengths and weaknesses.
     - Rock beats Scissors 
     - Paper beats Rock 
