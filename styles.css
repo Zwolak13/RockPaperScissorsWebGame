@@ -1,0 +1,93 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#gameSpace{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(46, 85, 145, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+#enemyChoice,#playerChoice{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+#playerScore, #enemyScore{
+    color: white;
+    width: 100%;
+    height: 20%;
+    font-size: 200%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#playerToDraw,#enemyToDraw{
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 5px solid rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 60%;
+    border-radius: 5%;
+}
+
+
+#playerChoices,#enemyChoices{
+    border-radius: 20px;
+    width: 8%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    border: 5px solid rgba(255, 255, 255, 0.26);
+}
+
+#playerChoices{
+    background-color: rgba(96, 196, 126, 0.26);
+    
+}
+#enemyChoices{
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+#split{
+    width: 5%; 
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#timerSpace{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timer{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+#line{
+    background-color: white;
+    width: 10%;
+    height: 100%;
+}
+
+.rock,.paper,.scissors{
+
+    width: 100%;
+    height: 30%;
+}

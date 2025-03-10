@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!--Cozy Music just to be, you know ☔-->
+    <iframe src="https://www.youtube.com/embed/lUS__iK65A4?autoplay=1&loop=1&playlist=lUS__iK65A4"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        style="position: absolute; top: 0; left: 0; width: 0; height: 0; visibility: hidden;">
+    </iframe>
+
+    <div id="gameSpace">
+        <div id="playerChoices">
+            <div class="rock"></div>
+            <div class="paper"></div>
+            <div class="scissors"></div>
+        </div>
+        <div id="playerChoice">
+            <div id="playerScore">
+                <a>Player</a>
+                <a id="playerPoints"></a>
+            </div>
+            <div id="playerToDraw"></div>
+        </div>
+        <div id="split">
+            <div id="timerSpace">
+                <a id="timer">5</a>
+            </div>
+            <div id="line"></div>
+        </div>
+        <div id="enemyChoice">
+            <div id="enemyScore">
+                <a>Bot</a>
+                <a id="enemyPoints"></a>
+            </div>
+            <div id="enemyToDraw"></div>
+        </div>
+        <div id="enemyChoices">
+            <div class="rock"></div>
+            <div class="paper"></div>
+            <div class="scissors"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
