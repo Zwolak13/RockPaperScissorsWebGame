@@ -1,4 +1,4 @@
-# 🎮 Rock-Paper-Scissors Game with Background Music 🎶
+# 🎮 Rock-Paper-Scissors WebGame
 
 ## 🚀 **How It Works**
 
